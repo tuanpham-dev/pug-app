@@ -1,0 +1,20 @@
+block mixins
+block config
+
+doctype html
+html(lang='en-US')
+	head
+		title=_.get(config, 'page_title', '')
+
+		meta(charset='utf-8')
+		meta(name='viewport', content='width=device-width, inital-scale=1.0, user-scalable=no')
+
+		link(href='images/favicon.png', rel='shortcut icon', type='image/png')
+		link(href='css/style.css', rel='stylesheet')
+		script(src='js/script.js')
+
+		block head
+
+	body(class=_.get(config, 'body_class'))
+		block content
+		block script

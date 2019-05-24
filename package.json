@@ -1,0 +1,31 @@
+{
+  "name": "pug-app",
+  "version": "1.0.0",
+  "description": "Default app for pugjs and scss.",
+  "main": "index.js",
+  "scripts": {
+    "start": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tuanpham-dev/pug-app.git"
+  },
+  "author": "Tuan Pham",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tuanpham-dev/pug-app/issues"
+  },
+  "homepage": "https://github.com/tuanpham-dev/pug-app#readme",
+  "devDependencies": {
+    "browser-sync": "^2.26.5",
+    "fancy-log": "^1.3.3",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^6.1.0",
+    "gulp-changed": "^3.2.0",
+    "gulp-jsbeautifier": "^3.0.0",
+    "gulp-plumber": "^1.2.1",
+    "gulp-pug": "^4.0.1",
+    "gulp-sass": "^4.0.2",
+    "lodash": "^4.17.11"
+  }
+}
